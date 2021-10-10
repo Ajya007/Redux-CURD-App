@@ -1,0 +1,102 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App{
+  background-color: rgb(230, 224, 216);
+  min-height: 100vh;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.header-start{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.header-end{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  .dashboard,.setting{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+}
+
+.showcase{
+  background-color: #fff;
+  margin: auto;
+  margin-top: 5rem;
+  width: 90%;
+  p{
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 0.6rem;
+  }
+}
+form{
+
+
+  padding: 2rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap:2rem;
+  .form-contorl{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+  }
+}
+
+#manufacturer,#product-type,input[type="text"]{
+
+  min-width:21rem;
+  padding: 0.7rem;
+  border-radius:0.2rem;
+  outline: none;
+  margin-top: 10px;
+ 
+}
+
+textarea{
+  min-width: 21rem;
+  min-height: 5rem;
+  outline: none;
+  resize:none;
+  margin-top: 10px;
+}
+
+.content-table{
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  min-width: 90%;
+  margin: auto;
+  text-align: left;
+  border-top:1px solid grey;
+
+  th,td{
+    padding: 12px 15px;
+    border-bottom:1px solid grey ;
+  }
+
+  tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+  } 
+
+
+}
+
+.btn{
+  display: flex;
+  gap:1rem;
+}

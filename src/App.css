@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.App {
+  background-color: #e6e0d8;
+  min-height: 100vh;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.header-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.header-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-end .dashboard, .header-end .setting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.showcase {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 5rem;
+  width: 90%;
+}
+
+.showcase p {
+  font-size: 16px;
+  border: 1px solid black;
+  padding: 0.6rem;
+}
+
+form {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
+
+form .form-contorl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: aquamarine;
+}
+
+#manufacturer, #product-type, input[type="text"] {
+  min-width: 21rem;
+  padding: 0.7rem;
+  border-radius: 0.2rem;
+  outline: none;
+  margin-top: 10px;
+}
+
+textarea {
+  min-width: 21rem;
+  min-height: 5rem;
+  outline: none;
+  resize: none;
+  margin-top: 10px;
+}
+
+.content-table {
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  min-width: 90%;
+  margin: auto;
+  text-align: left;
+  border-top: 1px solid grey;
+}
+
+.content-table th, .content-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid grey;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+/*# sourceMappingURL=App.css.map */
