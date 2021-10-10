@@ -61,7 +61,7 @@
   padding: 0.6rem;
 }
 
-form {
+.form-wrapper {
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,7 +71,7 @@ form {
   gap: 2rem;
 }
 
-form .form-contorl {
+.form-wrapper .form-contorl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,5 +121,40 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   gap: 1rem;
+  cursor: pointer;
+}
+
+.form-btn {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+.form-btn .submit {
+  background-color: indigo;
+  min-width: 8rem;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-btn .reset {
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: #fff;
+  background-color: lightcoral;
+  min-width: 8rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=App.css.map */

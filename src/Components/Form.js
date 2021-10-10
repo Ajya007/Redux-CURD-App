@@ -4,6 +4,8 @@ const Form = () => {
     return(
         <div>
             <form>
+
+                <div className="form-wrapper">
                 {/* Manufacturer */}
 
                 <div className="form-control">
@@ -60,6 +62,11 @@ const Form = () => {
                   <textarea />
                 </label>
 
+                </div>
+</div>
+                <div className="form-btn">
+                    <button className="submit">submit</button>
+                    <button className="reset">reset</button>
                 </div>
                 
             </form>
